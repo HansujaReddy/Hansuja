@@ -3,17 +3,17 @@ const questions = [
   {
     question: "What is the smallest independent country in the world?",
     answers: ["Canada", "Malta", "India", "Vatican City"],
-    correct: 2
+    correct: 1
   },
   {
     question: "Which country has the largest population in South America?",
     answers: ["Peru", "Colombia", "Netherlands", "Brazil"],
-    correct: 1
+    correct: 0
   },
   {
     question: "Where is Eifel tower located?",
     answers: ["Spain", "France", "England", "Scotland"],
-    correct: 2
+    correct: 1
   }
 ];
 
