@@ -1,18 +1,18 @@
 
 const questions = [
   {
-    question: "Which language makes a webpage interactive?",
-    answers: ["C", "JavaScript", "HTML", "CSS"],
+    question: "What is the smallest indipendent country in the world?",
+    answers: ["Canada", "Malta", "India", "Vatican City"],
+    correct: 2
+  },
+  {
+    question: "Which country has the largest population in South America?",
+    answers: ["Peru", "Colombia", "Netherlands", "Brazil"],
     correct: 1
   },
   {
-    question: "Which language controls webpage appearance?",
-    answers: ["CSS", "C", "SQL", "Python"],
-    correct: 0
-  },
-  {
-    question: "Which HTML tag creates a heading?",
-    answers: ["<p>", "<img>", "<h1>", "<button>"],
+    question: "Where is Eifel tower located?",
+    answers: ["Spain", "France", "England", "Scotland"],
     correct: 2
   }
 ];
