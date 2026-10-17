@@ -1,7 +1,7 @@
 
 body {
   font-family: 'Segoe UI' , Tahoma, Geneva, Verdana,sans-sherif;
-  background: linear-graient(135deg, #ff758c 0%, #ffeb3 100%);
+  background: linear-gradient(135deg, #ff758c 0%, #ffeb3 100%);
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -10,11 +10,11 @@ body {
 }
 
 .quiz {
-  background: pink;
+  background: #ffffff;
   padding: 30px;
   border-radius: 18px;
   width: min(420px, 82vw);
-  box-shadow: 0 8px 30px #0001;
+  box-shadow: 0 8px 30px rgba(0, 0, 0.15);
 }
 
 h1 {
@@ -29,24 +29,23 @@ h1 {
 button {
   padding: 12px;
   border: 0;
-  border-radius: 9px;
-  background: #4f46e5;
+  border-radius: 8px;
+  background: #FF758c;
   color: white;
   cursor: pointer;
   font-size: 16px;
+  transition: all 0.2s ease-in-out;
 }
 
 #answers button {
-  background: #e0e7ff;
-  color: #1e1b4b;
-  text-align: left;
+  background: #e65c73;
+  color: #ffffff;
+  font-weight: bold;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(230, 92, 115, 0.3);
 }
 
 button:disabled {
   cursor: default;
-  opacity: 0.7;
-}
-
-#feedback {
-  font-weight: bold;
+  opacity: 0.5;
 }
