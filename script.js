@@ -1,7 +1,7 @@
 
 const questions = [
   {
-    question: "What is the smallest indipendent country in the world?",
+    question: "What is the smallest independent country in the world?",
     answers: ["Canada", "Malta", "India", "Vatican City"],
     correct: 2
   },
