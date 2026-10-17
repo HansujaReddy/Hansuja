@@ -1,15 +1,16 @@
 
 body {
-  font-family: Arial, sans-serif;
-  background: #eef2ff;
+  font-family: 'Segoe UI' , Tahoma, Geneva, Verdana,sans-sherif;
+  background: linear-graient(135deg, #ff758c 0%, #ffeb3 100%);
   margin: 0;
   min-height: 100vh;
-  display: grid;
+  display: flex;
   place-items: center;
+  height: 100vh;
 }
 
 .quiz {
-  background: white;
+  background: pink;
   padding: 30px;
   border-radius: 18px;
   width: min(420px, 82vw);
